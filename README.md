@@ -7,9 +7,33 @@ A collection of C# console programs organized by topic — built while learning 
 | #  | Topic        | Description                                              |
 |----|--------------|----------------------------------------------------------|
 | 00 | Hello World  | First C# program — `Console.WriteLine`, `Console.Beep`  |
-| 01 | Output       | `Console.Write` vs `Console.WriteLine`, comments, `ReadKey` |
+| 01 | Output       | `Console.Write` vs `Console.WriteLine`, comments, escape sequences |
 
 > More topics will be added as I progress through C#!
+
+---
+
+### 01 — Output
+
+Covers `Console.Write` vs `Console.WriteLine`, single-line & multi-line comments, `Console.ReadKey`, and **escape sequences**.
+
+📄 *For full code with examples, see [`01_Output/Ouput/Program.cs`](01_Output/Ouput/Program.cs)*
+
+#### Escape Sequences
+
+| Escape Sequence | Represents            |
+|-----------------|-----------------------|
+| `\a`            | Bell (alert)          |
+| `\b`            | Backspace             |
+| `\f`            | Form feed             |
+| `\n`            | New line              |
+| `\r`            | Carriage return       |
+| `\t`            | Horizontal tab        |
+| `\v`            | Vertical tab          |
+| `\'`            | Single quotation mark |
+| `\"`            | Double quotation mark |
+| `\\`            | Backslash             |
+| `\?`            | Literal question mark |
 
 ## 🛠️ Prerequisites
 
